@@ -3,6 +3,10 @@
 from app import app
 from models import db, Activity, Signup, Camper
 
-if __name__ == '__main__':
-    with app.app_context():
-        import ipdb; ipdb.set_trace()
+with app.app_context():
+    import ipdb; ipdb.set_trace()
+    activity1 = Activity.query.first()
+    camper1 = Camper.query.first()
+    signup1 = Signup.query.first()
+    import ipdb; ipdb.set_trace()
+    campers = Camper.query.all()

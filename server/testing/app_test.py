@@ -3,7 +3,6 @@ from app import app, db
 from faker import Faker
 from random import randint
 
-
 class TestApp:
     '''Flask application in app.py'''
 
